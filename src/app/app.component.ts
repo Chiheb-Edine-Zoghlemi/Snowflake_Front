@@ -28,15 +28,12 @@ export class AppComponent {
             bubble: {
                 distance: 500,
                 duration: 2,
-                opacity: 0.8,
-                size: 30,
+                opacity: 0.6,
+                size: 25,
                 speed: 3
             },
-            push: {
-                quantity: 4
-            },
             repulse: {
-                distance: 300,
+                distance: 150,
                 duration: 0.4
             }
         }
@@ -70,7 +67,7 @@ export class AppComponent {
                 enable: true,
                 value_area: 1200
             },
-            value: 80
+            value: 60
         },
         opacity: {
             value: 0.5
