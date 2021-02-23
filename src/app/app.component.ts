@@ -33,8 +33,8 @@ export class AppComponent {
                 speed: 3
             },
             repulse: {
-                distance: 150,
-                duration: 0.4
+                distance: 200,
+                duration: 0.6
             }
         }
 
@@ -67,7 +67,7 @@ export class AppComponent {
                 enable: true,
                 value_area: 1200
             },
-            value: 60
+            value: 80
         },
         opacity: {
             value: 0.5
